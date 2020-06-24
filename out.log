@@ -1,0 +1,174 @@
+2020-06-24 09:59:27,277 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 09:59:33,852 [INFO ]  Rasa server is up and running.
+2020-06-24 10:00:35,157 [ERROR]  Exception occurred while handling uri: 'http://3df3de57fd10.ngrok.io/'
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\router.py", line 452, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2020-06-24 10:01:06,677 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:01:41,630 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 10:01:43,974 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:01:45,772 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:02:03,657 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:02:13,414 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:02:30,395 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:02:39,248 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:02:40,894 [WARNI]  Received retry #2 request from slack due to http_timeout.
+2020-06-24 10:08:20,599 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 10:08:21,611 [ERROR]  Failed to run custom action 'action_lookUp_en'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connect call failed ('127.0.0.1', 5055)]
+2020-06-24 10:08:21,617 [ERROR]  Encountered an exception while running action 'action_lookUp_en'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2020-06-24 10:09:50,444 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:19:44,758 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:20:13,141 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:20:14,254 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:22:14,487 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:22:20,928 [INFO ]  Rasa server is up and running.
+2020-06-24 10:23:11,913 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 10:23:13,802 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:23:14,497 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:23:27,510 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 10:23:28,533 [ERROR]  Failed to run custom action 'action_get_lottery'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connect call failed ('127.0.0.1', 5055)]
+2020-06-24 10:23:28,542 [ERROR]  Encountered an exception while running action 'action_get_lottery'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2020-06-24 10:29:37,587 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:29:44,922 [INFO ]  Rasa server is up and running.
+2020-06-24 10:29:55,049 [ERROR]  Failed to run custom action 'action_lookUp_en'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:default [Connect call failed ('127.0.0.1', 5055)]
+2020-06-24 10:29:55,059 [ERROR]  Encountered an exception while running action 'action_lookUp_en'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2020-06-24 10:29:59,423 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:30:21,742 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:30:32,395 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:30:32,665 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:36:37,737 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:36:44,123 [INFO ]  Rasa server is up and running.
+2020-06-24 10:37:54,132 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:38:00,554 [INFO ]  Rasa server is up and running.
+2020-06-24 10:38:00,556 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1073, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\server.py", line 895, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 488, in run_until_complete
+    return future.result()
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1077, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2020-06-24 10:38:21,473 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:38:27,528 [INFO ]  Rasa server is up and running.
+2020-06-24 10:38:27,542 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1073, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\server.py", line 895, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 488, in run_until_complete
+    return future.result()
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1077, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2020-06-24 10:38:50,778 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:38:56,715 [INFO ]  Rasa server is up and running.
+2020-06-24 10:38:56,729 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1073, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\server.py", line 895, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 488, in run_until_complete
+    return future.result()
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1077, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2020-06-24 10:39:24,575 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:39:30,681 [INFO ]  Rasa server is up and running.
+2020-06-24 10:39:30,696 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1073, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\server.py", line 895, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 488, in run_until_complete
+    return future.result()
+  File "c:\users\dannv\.conda\envs\env_sara\lib\asyncio\base_events.py", line 1077, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2020-06-24 10:57:01,657 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 10:57:09,679 [INFO ]  Rasa server is up and running.
+2020-06-24 10:58:19,645 [ERROR]  Exception occurred while handling uri: 'http://c0e2da0f1b9a.ngrok.io/'
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\router.py", line 452, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2020-06-24 10:58:28,915 [ERROR]  Exception occurred while handling uri: 'http://c0e2da0f1b9a.ngrok.io/'
+Traceback (most recent call last):
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\dannv\.conda\envs\env_sara\lib\site-packages\sanic\router.py", line 452, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2020-06-24 10:59:31,728 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 10:59:33,586 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:59:34,580 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 10:59:49,299 [ERROR]  Encountered an exception while running action 'action_get_lottery'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2020-06-24 10:59:49,951 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:00:31,582 [WARNI]  Received retry #2 request from slack due to http_timeout.
+2020-06-24 11:03:07,212 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:03:23,719 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:04:18,662 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 11:04:24,796 [INFO ]  Rasa server is up and running.
+2020-06-24 11:04:56,908 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:05:02,706 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:05:56,479 [WARNI]  Received retry #2 request from slack due to http_timeout.
+2020-06-24 11:10:14,381 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 11:10:20,744 [INFO ]  Rasa server is up and running.
+2020-06-24 11:10:51,791 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:11:34,091 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:11:34,491 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:11:47,996 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:11:51,761 [WARNI]  Received retry #2 request from slack due to http_timeout.
+2020-06-24 11:17:10,073 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-24 11:17:16,619 [INFO ]  Rasa server is up and running.
+2020-06-24 11:17:56,696 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:17:58,690 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:17:59,448 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:18:35,554 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:18:55,499 [WARNI]  Received retry #2 request from slack due to http_timeout.
+2020-06-24 11:18:56,716 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:18:58,805 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:19:22,661 [ERROR]  Encountered an exception while running action 'action_lookUp_en'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2020-06-24 11:19:23,101 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:19:38,874 [ERROR]  Encountered an exception while running action 'action_lookUp_en'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2020-06-24 11:19:39,629 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:20:06,194 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:20:06,841 [WARNI]  Received message on unsupported channel: D015T2QTGKU
+2020-06-24 11:20:30,890 [WARNI]  Received retry #1 request from slack due to http_timeout.
+2020-06-24 11:20:32,342 [WARNI]  Received message on unsupported channel: D015T2QTGKU
